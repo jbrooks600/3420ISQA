@@ -22,3 +22,47 @@ Stakeholders:
  Manager identifies software and license information that is provided. 
  
  
+ Use Case #2 
+ Title: Manage License Software Information
+ 
+ Goal In Context: Manager is able to manage all the License and Software Information that is received from developer. 
+ 
+ Stakeholders: 
+ Manger: Primary actor responsible for managing the licnese information from the software. 
+ Developer: Provide software and license information for the manager to view and sort through.
+ Software Owner: Be able to understand the managers decisions if the software is inaccurate and cannot be stored or used properly due to inaccuate or invalid licensing results of the software. 
+ 
+ Preconditions:
+ Proper software and license information is provided to the manager. 
+ The information is revlevant for the manager who is controlling that information about the software and it's licenses. 
+ 
+ Main Success Scenario: 
+ Manager is able to successfully and properly manage the software and license information that they are receiving. 
+ 
+ Failed End Conditions: 
+ Manager is unable to manage the software and license information due to inaccuaracies or no licenses being provided for the software. 
+ 
+ Trigger: Manager receives scanned information.
+ 
+ Use Case #3 
+ Title: Displaying License Results 
+ 
+ Goal In Context: Allowing the manager to be able to browse through the licensing results of the software from the developer. 
+ 
+ Stakeholders: 
+ Manager: Browse results to verify license information for software.  
+ Developer: Provide intitial software and license information to be able to display by manager. 
+ Software Owner: Manager can display and browse the results of their software and stop any software that has inaccurate licensing information. 
+ 
+ Preconditions:
+ Information about Software and Licensing provided to manager to be able to display results.
+ Software has to be scanned prior to being able to display the results of the scan. 
+ 
+ Main Success Scenario: 
+ All software and license information being able to be displayed and browsed by manager. 
+ Information is accurate from the scan. 
+ 
+ Failed End Conditions: 
+ Software and License information is unable to be viewed or displayed by manager. 
+ 
+ Trigger: Manager receives information and is able to view and browse through the results. 
