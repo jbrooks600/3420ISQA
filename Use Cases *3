@@ -1,6 +1,24 @@
-Nees to be added to fufill  the documents in GITHUB.
-Three Use Cases Below:
-Manager: The manager in DFD would be able to utilize the software to Browse the data on what licenses there are for the given software and how to use them. 
-The manager would also be able to use the software to monitor the data of what licenses/ who is licensing the products or software and be able to provide feedback on them. 
-The Developer could utilize this software in a few ways one being to be able to post and create new products that would be flowed through the data flow diagrams.
-The developer would be able to provide new ideas relating to software being used to impprove on that software. 
+Title: Determine License and Vulnerability Information
+
+Primary Actor: Manager
+
+Goal In Context: Manager is able to determine all license and vulnerability information from the developer. 
+
+Stakeholders: 
+ Manager: To receive and clear software package information. 
+ Developer: provides software package information that is relevant. 
+ Software Owner: Understand manager decisions to give the okay to the software or deny the software. 
+ 
+ Preconditions: 
+ Proper software package information has been provided or gets provided. 
+ Relevant information in Github Database. 
+ 
+ Main Success Scenario:
+ Manager receives accurate license and vulnerability infromation for the requested software packages and their entirety. 
+ Failed End Conditions:
+ Manager receives inaccurate or invalid information based on their request from the data store. 
+ 
+ Trigger: 
+ Manager identifies software and license information that is provided. 
+ 
+ 
