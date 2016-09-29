@@ -11,18 +11,21 @@ Stakeholders:
  
  Preconditions: 
  Proper software package information has been provided or gets provided. 
- Relevant information in Github Database. 
+ Relevant information in Softwrae Package License and Vulnerability Database. 
  
  Main Success Scenario:
  Manager receives accurate license and vulnerability infromation for the requested software packages and their entirety. 
+ 
  Failed End Conditions:
  Manager receives inaccurate or invalid information based on their request from the data store. 
  
  Trigger: 
- Manager identifies software and license information that is provided. 
- Use Case #2 
- Title: Scanning software project package for Policies
-Goal In Context:  Manager able to compare the software project package license results to corporate policies.
+ Manager requests software and license information that is provided. 
+ 
+Use Case #2 
+Title: Requesting Policy Documents
+
+Goal In Context: Manager and Developer are able to request open source software corporate policies.
 
 Stakeholders: 
 Manager:  Determines if software package meets corporate policy. 
@@ -34,29 +37,32 @@ Proper project software information is provided to the manager and developer.
 The information is relevant to the given project that the software is representing. 
 
 Main success scenario: 
-Project software matches up to corporate policy. 
+Corporate Policy documents are delivered to the Manager or Developer
 
 Failed End Conditions:
-Project software fails to meet the conditions of the corporate policy. 
+Corporate Policy documents are not delivered to the Manager or Developer
 
 Trigger: 
-Manager receives and compares the software project package information to the policy that the company has. 
+Manager or Developer sends request for Corporate OSS Policy document 
+
 Use Case #3 
 Title:  Submitting and modifying corporate policy
-Goal in Context: Manager is able to change and submit new policies that project software has to meet.
+
+Goal in Context: Manager is able to change and submit new policies
+
 Stakeholders: 
-Manager:  Able to change and submit new policies that have to be followed more power. 	
+Manager:  Able to change and submit new policies that have to be followed	
 Owner of Software:  May get software for the project rejected due to policy issues.	
-Corporate:  Controls policies that have to be met in order for software to be used by the company. 
+
 Preconditions:
 Policies are in place prior to the software information arriving. 
-The policy information is set and consistent in the process to ensure accurate results when compared to corporate policy. 
+The policy information is set and consistent in the process to ensure accurate results when compared to software projects
+
 Main success scenario: 
-Manager is able to ensure that the right policies are in place for the software to meet.
+Manager is able to ensure that the right policies are in place for the software
+
 Failed conditions: 
-Software does not meet the policies set for the project. 
+Policies cannot be updated or added
+
 Trigger:
 Manager submits policy that needs to be followed and modifies as necessary. 
-
-
- 
