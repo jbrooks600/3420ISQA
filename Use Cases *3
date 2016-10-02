@@ -1,12 +1,12 @@
-Title: Determine License and Vulnerability Information
+Title: Determine Software Project License and Vulnerability Information
 
 Primary Actor: Manager
 
-Goal In Context: Manager is able to determine all license and vulnerability information from the developer. 
+Goal In Context: Manager is able to determine all license and vulnerability information for a software project. 
 
 Stakeholders: 
  Manager: To receive and clear software package information. 
- Developer: provides software package information that is relevant. 
+ Developer: Provides software package information for licesne and vulnerability scanning
  Software Owner: Understand manager decisions to give the okay to the software or deny the software. 
  
  Preconditions: 
@@ -20,7 +20,7 @@ Stakeholders:
  Manager receives inaccurate or invalid information based on their request from the data store. 
  
  Trigger: 
- Manager requests software and license information that is provided. 
+ Manager requests software and license information for software project
  
 Use Case #2 
 Title: Requesting Policy Documents
@@ -28,16 +28,16 @@ Title: Requesting Policy Documents
 Goal In Context: Manager and Developer are able to request open source software corporate policies.
 
 Stakeholders: 
-Manager:  Determines if software package meets corporate policy. 
+Manager:  Uses information to determines if software project meets corporate policy. 
 Developer: Aids in determining if project package meets corporate policy.
 Software Owner: Manager/ Developer can stop a project due to not meeting corporate policy. 
 
 Preconditions:
-Proper project software information is provided to the manager and developer. 
+Proper project and policy information is provided to the manager and developer. 
 The information is relevant to the given project that the software is representing. 
 
 Main success scenario: 
-Corporate Policy documents are delivered to the Manager or Developer
+Corporate policy documents are delivered to the Manager or Developer
 
 Failed End Conditions:
 Corporate Policy documents are not delivered to the Manager or Developer
@@ -52,17 +52,16 @@ Goal in Context: Manager is able to change and submit new policies
 
 Stakeholders: 
 Manager:  Able to change and submit new policies that have to be followed	
-Owner of Software:  May get software for the project rejected due to policy issues.	
+Owner of Software:  May get software for the project rejected due to policy issues or changes	
 
 Preconditions:
-Policies are in place prior to the software information arriving. 
-The policy information is set and consistent in the process to ensure accurate results when compared to software projects
+Policies are in place prior to the request to modify
 
 Main success scenario: 
-Manager is able to ensure that the right policies are in place for the software
+Manager is able to modify existing policy or submit new policy to which software projects will be compared
 
 Failed conditions: 
 Policies cannot be updated or added
 
 Trigger:
-Manager submits policy that needs to be followed and modifies as necessary. 
+Manager submits policy that needs included or modified to be followed as necessary. 
